@@ -2,26 +2,33 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Explo4ers Snake Game V1</title>
+<title>Explo4ers Snake Game</title>
 <style>
     body {
         margin: 0;
         padding: 0;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100vh;
         background-color: black;
+        color: white;
     }
 
     canvas {
         border: 2px solid #333;
         background-color: #222;
     }
+
+    h5 {
+        margin-top: 20px;
+    }
 </style>
 </head>
 <body>
 <canvas id="gameCanvas" width="400" height="400"></canvas>
+<h5>Built By Explo4er</h5>
 <script>
     const canvas = document.getElementById('gameCanvas');
     const ctx = canvas.getContext('2d');
