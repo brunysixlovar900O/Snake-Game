@@ -1,4 +1,4 @@
-snake games clone by explo4er
+snake games clone by bruny
 
 coming to brunysixl soon
 
